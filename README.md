@@ -17,14 +17,18 @@ cd https://github.com/Ayomisco/gh-monitor-service.git
 
 Install the required dependencies:
 
-```npm install
+```
+npm install
 ```
 
 ### 3. Create a .env File
+
 Create a .env file in the project root directory:
 
-``` touch .env
 ```
+touch .env
+```
+
 Add the following content to the .env file:
 
 ```
@@ -34,8 +38,11 @@ POLLING_INTERVAL=3600000
 ```
 
 ### 4 Scripts
+
 Update your package.json with the following scripts:
-```{
+
+```
+{
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc",
@@ -50,19 +57,23 @@ Update your package.json with the following scripts:
 Build the Project
 Compile the TypeScript code:
 
-``` npm run build
+```
+npm run build
 ```
 
- Start the Server
+Start the Server
 Start the server:
 
-```npm start ```
+```
+npm start
+```
 
 Testing
 To execute the tests, run:
 
-```npm test```
-
+```
+npm test
+```
 
 Database Schema
 The database schema for this project is illustrated in the image below. You can find it in the project directory.
