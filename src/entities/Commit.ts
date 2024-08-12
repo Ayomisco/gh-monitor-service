@@ -1,4 +1,3 @@
-// src/entities/Commit.ts
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
 import { Repository } from './Repository';
 

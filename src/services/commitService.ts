@@ -1,4 +1,3 @@
-// src/services/commitService.ts
 import { Commit } from '../entities/Commit';
 import { Repository } from '../entities/Repository';
 import githubClient from '../../config/githubClient';

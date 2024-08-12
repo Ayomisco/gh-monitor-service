@@ -1,4 +1,3 @@
-// src/index.ts
 import express from 'express';
 import dataSource from '../config/dataSource';
 import startPolling from './services/pollingService';

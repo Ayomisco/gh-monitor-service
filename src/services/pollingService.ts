@@ -1,4 +1,3 @@
-// src/services/pollingService.ts
 import { fetchCommits } from './commitService';
 import dataSource from '../../config/dataSource';
 import dotenv from 'dotenv';

@@ -1,4 +1,3 @@
-// tests/commitService.test.ts
 import { fetchCommits } from '../src/services/commitService';
 import dataSource from '../config/dataSource';
 import { Repository } from '../src/entities/Repository';

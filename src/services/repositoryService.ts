@@ -1,4 +1,3 @@
-// src/services/repositoryService.ts
 import { Repository } from '../entities/Repository';
 import githubClient from '../../config/githubClient';
 import dataSource from '../../config/dataSource';
